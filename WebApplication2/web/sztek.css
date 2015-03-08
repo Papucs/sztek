@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 8, 2015, 11:44:48 AM
+    Author     : Papucs
+*/
+body{
+    background-color: #cddcd5;
+}
+div#main{
+    margin-left: 150px;
+    margin-top: 150px;
+    width: 700px
+}
+div#canvas{
+    margin-left: 20px;
+    position:relative;
+    float:left;
+    border-radius: 5px;
+}
+canvas#myCanvas{
+    border-radius:5px;
+}
+
+div#buttons{
+    margin-top: 150px;
+}
+
+div#info{
+    position:relative;
+    float:right;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: black;
+    padding-right:20px;
+    padding-left:20px;
+    height:400px;
+}
+div#scores{
+    margin-top:50px;
+}
+p#player1{
+    color:red
+}
+p#player2{
+    color:orange
+}
+p#player3{
+    color:blue
+}
+p#player4{
+    color:green
+}
